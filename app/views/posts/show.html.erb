@@ -1,0 +1,11 @@
+<div class="">
+  <%= link_to 'Back', posts_path %>
+</div>
+
+
+<div class="container">
+<p><h2><%=@post.title%></h2></p>
+<p>- <%=@post.user.username%></p><br>
+<p><%=@post.body%></p>
+<hr>
+</div>

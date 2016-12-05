@@ -34,6 +34,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'pry'
   gem 'pry-byebug'
+  gem 'faker'
 end
 
 group :development do
